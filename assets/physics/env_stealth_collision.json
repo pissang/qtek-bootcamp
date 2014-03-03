@@ -1,0 +1,248 @@
+{
+    "accessors": {
+        "attribute_23": {
+            "bufferView": "bufferView_29",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "count": 1251,
+            "max": [
+                31.8884,
+                2.2,
+                49.942
+            ],
+            "min": [
+                -2.00222,
+                -0.002468,
+                -5.06743
+            ],
+            "type": 35665
+        },
+        "attribute_25": {
+            "bufferView": "bufferView_29",
+            "byteOffset": 15012,
+            "byteStride": 12,
+            "count": 1251,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                0,
+                -1
+            ],
+            "type": 35665
+        },
+        "attribute_27": {
+            "bufferView": "bufferView_29",
+            "byteOffset": 30024,
+            "byteStride": 8,
+            "count": 1251,
+            "max": [
+                1,
+                1
+            ],
+            "min": [
+                0,
+                0
+            ],
+            "type": 35664
+        },
+        "indices_21": {
+            "bufferView": "bufferView_30",
+            "byteOffset": 0,
+            "count": 2019,
+            "type": 5123
+        }
+    },
+    "animations": {},
+    "asset": {
+        "extras": {
+            "premultipliedAlpha": true
+        },
+        "generator": "collada2gltf@23e7a5e5ab5dfbbd0c0b5b4615c3611a3e5a57ef"
+    },
+    "bufferViews": {
+        "bufferView_29": {
+            "buffer": "env_stealth_collision",
+            "byteLength": 40032,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferView_30": {
+            "buffer": "env_stealth_collision",
+            "byteLength": 4040,
+            "byteOffset": 40032,
+            "target": 34963
+        },
+        "bufferView_31": {
+            "buffer": "env_stealth_collision",
+            "byteLength": 0,
+            "byteOffset": 44072
+        }
+    },
+    "buffers": {
+        "env_stealth_collision": {
+            "byteLength": 44072,
+            "path": "env_stealth_collision.bin",
+            "type": "arraybuffer"
+        }
+    },
+    "materials": {
+        "_-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": [
+                        1,
+                        1,
+                        1,
+                        0.5
+                    ]
+                }
+            },
+            "name": "Default-Diffuse"
+        }
+    },
+    "meshes": {
+        "_570": {
+            "name": "env_stealth_collision_001",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_25",
+                        "POSITION": "attribute_23",
+                        "TEXCOORD_0": "attribute_27"
+                    },
+                    "indices": "indices_21",
+                    "material": "_-fx",
+                    "primitive": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "_": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "_570"
+            ],
+            "name": "env_stealth_collision"
+        }
+    },
+    "profile": "WebGL 1.0.2",
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position"
+            ],
+            "fragmentShader": "env_stealth_collision0FS",
+            "vertexShader": "env_stealth_collision0VS"
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "_"
+            ]
+        }
+    },
+    "shaders": {
+        "env_stealth_collision0FS": {
+            "path": "env_stealth_collision0FS.glsl"
+        },
+        "env_stealth_collision0VS": {
+            "path": "env_stealth_collision0VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique1": {
+            "parameters": {
+                "diffuse": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                }
+            },
+            "pass": "defaultPass",
+            "passes": {
+                "defaultPass": {
+                    "details": {
+                        "commonProfile": {
+                            "extras": {
+                                "doubleSided": false
+                            },
+                            "lightingModel": "Phong",
+                            "parameters": [
+                                "diffuse",
+                                "modelViewMatrix",
+                                "normalMatrix",
+                                "projectionMatrix"
+                            ]
+                        },
+                        "type": "COLLADA-1.4.1/commonProfile"
+                    },
+                    "instanceProgram": {
+                        "attributes": {
+                            "a_normal": "normal",
+                            "a_position": "position"
+                        },
+                        "program": "program_0",
+                        "uniforms": {
+                            "u_diffuse": "diffuse",
+                            "u_modelViewMatrix": "modelViewMatrix",
+                            "u_normalMatrix": "normalMatrix",
+                            "u_projectionMatrix": "projectionMatrix"
+                        }
+                    },
+                    "states": {
+                        "blendEnable": 0,
+                        "cullFaceEnable": 1,
+                        "depthMask": 1,
+                        "depthTestEnable": 1
+                    }
+                }
+            }
+        }
+    }
+}

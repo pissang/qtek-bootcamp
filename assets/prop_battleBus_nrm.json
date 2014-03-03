@@ -1,0 +1,1179 @@
+{
+    "accessors": {
+        "attribute_323": {
+            "bufferView": "bufferView_329",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "count": 36282,
+            "max": [
+                1.68911,
+                5.55442,
+                6.5976
+            ],
+            "min": [
+                -1.68911,
+                -0.000003,
+                -6.5976
+            ],
+            "type": 35665
+        },
+        "attribute_325": {
+            "bufferView": "bufferView_329",
+            "byteOffset": 435384,
+            "byteStride": 12,
+            "count": 36282,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": 35665
+        },
+        "attribute_327": {
+            "bufferView": "bufferView_329",
+            "byteOffset": 870768,
+            "byteStride": 8,
+            "count": 36282,
+            "max": [
+                18.5625,
+                3.48338
+            ],
+            "min": [
+                -5.01728,
+                -1.61505
+            ],
+            "type": 35664
+        },
+        "indices_276": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 0,
+            "count": 42849,
+            "type": 5123
+        },
+        "indices_279": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 85698,
+            "count": 29232,
+            "type": 5123
+        },
+        "indices_282": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 144162,
+            "count": 17496,
+            "type": 5123
+        },
+        "indices_285": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 179154,
+            "count": 2244,
+            "type": 5123
+        },
+        "indices_288": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 183642,
+            "count": 3744,
+            "type": 5123
+        },
+        "indices_291": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 191130,
+            "count": 3552,
+            "type": 5123
+        },
+        "indices_294": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 198234,
+            "count": 798,
+            "type": 5123
+        },
+        "indices_297": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 199830,
+            "count": 8196,
+            "type": 5123
+        },
+        "indices_300": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 216222,
+            "count": 10044,
+            "type": 5123
+        },
+        "indices_303": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 236310,
+            "count": 15618,
+            "type": 5123
+        },
+        "indices_306": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 267546,
+            "count": 1872,
+            "type": 5123
+        },
+        "indices_309": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 271290,
+            "count": 3348,
+            "type": 5123
+        },
+        "indices_312": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 277986,
+            "count": 2040,
+            "type": 5123
+        },
+        "indices_315": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 282066,
+            "count": 3714,
+            "type": 5123
+        },
+        "indices_318": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 289494,
+            "count": 936,
+            "type": 5123
+        },
+        "indices_321": {
+            "bufferView": "bufferView_330",
+            "byteOffset": 291366,
+            "count": 558,
+            "type": 5123
+        }
+    },
+    "animations": {},
+    "asset": {
+        "extras": {
+            "premultipliedAlpha": true
+        },
+        "generator": "collada2gltf@23e7a5e5ab5dfbbd0c0b5b4615c3611a3e5a57ef"
+    },
+    "bufferViews": {
+        "bufferView_329": {
+            "buffer": "prop_battleBus",
+            "byteLength": 1161024,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferView_330": {
+            "buffer": "prop_battleBus",
+            "byteLength": 292484,
+            "byteOffset": 1161024,
+            "target": 34963
+        },
+        "bufferView_331": {
+            "buffer": "prop_battleBus",
+            "byteLength": 0,
+            "byteOffset": 1453508
+        }
+    },
+    "buffers": {
+        "prop_battleBus": {
+            "byteLength": 1453508,
+            "path": "prop_battleBus.bin",
+            "type": "arraybuffer"
+        }
+    },
+    "images": {
+        "image_0": {
+            "path": "textures/Textures/prop_battleBus_body_dff.png"
+        },
+        "image_1": {
+            "path": "textures/Textures/prop_battleBus_body_nrm.png"
+        },
+        "image_10": {
+            "path": "textures/Textures/prop_battleBus_canister_dff.png"
+        },
+        "image_11": {
+            "path": "textures/Textures/prop_battleBus_canister_nrm.png"
+        },
+        "image_12": {
+            "path": "textures/Textures/prop_battleBus_carpet_dff.png"
+        },
+        "image_13": {
+            "path": "textures/Textures/prop_battleBus_carpet_nrm.png"
+        },
+        "image_14": {
+            "path": "textures/Textures/prop_battleBus_barbedWire_dff.png"
+        },
+        "image_15": {
+            "path": "textures/Textures/prop_battleBus_barbedWire_nrm.png"
+        },
+        "image_16": {
+            "path": "textures/Textures/prop_battleBus_crates_dff.png"
+        },
+        "image_17": {
+            "path": "textures/Textures/prop_battleBus_crates_nrm.png"
+        },
+        "image_18": {
+            "path": "textures/Textures/prop_battleBus_appendages_dff.png"
+        },
+        "image_19": {
+            "path": "textures/Textures/prop_battleBus_appendages_nrm.png"
+        },
+        "image_2": {
+            "path": "textures/Textures/prop_battleBus_wheels_dff.png"
+        },
+        "image_20": {
+            "path": "textures/Textures/prop_battleBus_tubes_dff.png"
+        },
+        "image_21": {
+            "path": "textures/Textures/prop_battleBus_baggageFrame_dff.png"
+        },
+        "image_22": {
+            "path": "textures/Textures/prop_battleBus_baggageFrame_nrm.png"
+        },
+        "image_23": {
+            "path": "textures/Textures/prop_battleBus_whiteMetal_dff.png"
+        },
+        "image_24": {
+            "path": "textures/Textures/prop_battleBus_blackMetal_nrm.png"
+        },
+        "image_25": {
+            "path": "textures/Textures/prop_battleBus_blackMetal_dff.png"
+        },
+        "image_26": {
+            "path": "textures/Textures/prop_battleBus_boxes_dff.png"
+        },
+        "image_27": {
+            "path": "textures/Textures/prop_battleBus_boxes_nrm.png"
+        },
+        "image_28": {
+            "path": "textures/Textures/prop_battleBus_canvas_dff.png"
+        },
+        "image_29": {
+            "path": "textures/Textures/prop_battleBus_canvas_nrm.png"
+        },
+        "image_3": {
+            "path": "textures/Textures/prop_battleBus_wheels_nrm.png"
+        },
+        "image_4": {
+            "path": "textures/Textures/prop_battleBus_lights_dff.png"
+        },
+        "image_5": {
+            "path": "textures/Textures/prop_battleBus_lights_nrm.png"
+        },
+        "image_6": {
+            "path": "textures/Textures/prop_battleBus_tv_dff.png"
+        },
+        "image_7": {
+            "path": "textures/Textures/prop_battleBus_tv_nrm.png"
+        },
+        "image_8": {
+            "path": "textures/Textures/prop_battleBus_sack_dff.png"
+        },
+        "image_9": {
+            "path": "textures/Textures/prop_battleBus_sack_nrm.png"
+        }
+    },
+    "materials": {
+        "_0428f7908ddf7b04ea8a7950e6640487-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_10",
+                    "shininess": 100,
+                    "specular": [
+                        0.910448,
+                        0.910448,
+                        0.910448,
+                        1
+                    ],
+                    "normalMap": "texture_image_11"
+                }
+            },
+            "name": "prop_battleBus_canister_mat"
+        },
+        "_098ec8978ce51144a84dc75bebca516e-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_14",
+                    "shininess": 100,
+                    "specular": [
+                        0.910448,
+                        0.910448,
+                        0.910448,
+                        1
+                    ],
+                    "normalMap": "texture_image_15"
+                }
+            },
+            "name": "prop_battleBus_barbedWire_mat"
+        },
+        "_0e14a9120306d4343ba94763988820c2-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_2",
+                    "shininess": 100,
+                    "specular": [
+                        0.910448,
+                        0.910448,
+                        0.910448,
+                        1
+                    ],
+                    "normalMap": "texture_image_3"
+                }
+            },
+            "name": "prop_battleBus_wheels_mat"
+        },
+        "_35191d363a1896845b4e9c4624aecf1c-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_0",
+                    "shininess": 100,
+                    "specular": [
+                        0.910448,
+                        0.910448,
+                        0.910448,
+                        1
+                    ],
+                    "normalMap": "texture_image_1"
+                }
+            },
+            "name": "prop_battleBus_body_mat"
+        },
+        "_563f41a1e466af24abfe19164eb81ae1-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_4",
+                    "shininess": 100,
+                    "specular": [
+                        0.910448,
+                        0.910448,
+                        0.910448,
+                        1
+                    ],
+                    "normalMap": "texture_image_5"
+                }
+            },
+            "name": "prop_battleBus_lights_mat"
+        },
+        "_64e02758727a37946a5e274dbc4371a8-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_6",
+                    "shininess": 100,
+                    "specular": [
+                        0.910448,
+                        0.910448,
+                        0.910448,
+                        1
+                    ],
+                    "normalMap": "texture_image_7"
+                }
+            },
+            "name": "prop_battleBus_tv_mat"
+        },
+        "_6b3445df2091acc49b9caeaf6f52ad02-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_26",
+                    "shininess": 100,
+                    "specular": [
+                        0.910448,
+                        0.910448,
+                        0.910448,
+                        1
+                    ],
+                    "normalMap": "texture_image_27"
+                }
+            },
+            "name": "prop_battleBus_boxes_mat"
+        },
+        "_6d9451edf0464944dbd2208c6c673fb2-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_28",
+                    "shininess": 100,
+                    "specular": [
+                        0.910448,
+                        0.910448,
+                        0.910448,
+                        1
+                    ],
+                    "normalMap": "texture_image_29"
+                }
+            },
+            "name": "prop_battleBus_canvas_mat"
+        },
+        "_75215383422e7d04680bd7209a37dacb-fx": {
+            "instanceTechnique": {
+                "technique": "technique2",
+                "values": {
+                    "diffuse": "texture_image_23",
+                    "shininess": 100,
+                    "specular": [
+                        0.910448,
+                        0.910448,
+                        0.910448,
+                        1
+                    ]
+                }
+            },
+            "name": "prop_battleBus_whiteMetal_mat"
+        },
+        "_83e6ca88195bf2f42a8a4f51dc3825c7-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_18",
+                    "shininess": 100,
+                    "specular": [
+                        0.910448,
+                        0.910448,
+                        0.910448,
+                        1
+                    ],
+                    "normalMap": "texture_image_19"
+                }
+            },
+            "name": "prop_battleBus_appendages_mat"
+        },
+        "_858d7c5c4608ddf4a8788139525ebc31-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_21",
+                    "shininess": 100,
+                    "specular": [
+                        0.910448,
+                        0.910448,
+                        0.910448,
+                        1
+                    ],
+                    "normalMap": "texture_image_22"
+                }
+            },
+            "name": "prop_battleBus_baggageFrame_mat"
+        },
+        "_a0fd5ff42768bd246bc1dc68f22d9f85-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_25",
+                    "shininess": 100,
+                    "specular": [
+                        0.910448,
+                        0.910448,
+                        0.910448,
+                        1
+                    ],
+                    "normalMap": "texture_image_24"
+                }
+            },
+            "name": "prop_battleBus_blackMetal_mat"
+        },
+        "_ad8424ed7b1c36440ae9e888536d2b12-fx": {
+            "instanceTechnique": {
+                "technique": "technique2",
+                "values": {
+                    "diffuse": "texture_image_8",
+                    "shininess": 100,
+                    "specular": [
+                        0.253731,
+                        0.253731,
+                        0.253731,
+                        1
+                    ],
+                    "normalMap": "texture_image_9"
+                }
+            },
+            "name": "prop_battleBus_sacks_mat"
+        },
+        "_bc404dc4b9d1e9c46b1bea42cd65522a-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_12",
+                    "shininess": 100,
+                    "specular": [
+                        0.231343,
+                        0.231343,
+                        0.231343,
+                        1
+                    ],
+                    "normalMap": "texture_image_13"
+                }
+            },
+            "name": "prop_battleBus_carpet_mat"
+        },
+        "_c8b0f18010a35cd41acb2f9efac97d52-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_16",
+                    "shininess": 100,
+                    "specular": [
+                        0.425373,
+                        0.425373,
+                        0.425373,
+                        1
+                    ],
+                    "normalMap": "texture_image_17"
+                }
+            },
+            "name": "prop_battleBus_crates_mat"
+        },
+        "_f6cfd302cc1848843a8fb32661dfa67d-fx": {
+            "instanceTechnique": {
+                "technique": "technique1",
+                "values": {
+                    "diffuse": "texture_image_20",
+                    "shininess": 100,
+                    "specular": [
+                        0.910448,
+                        0.910448,
+                        0.910448,
+                        1
+                    ]
+                }
+            },
+            "name": "prop_battleBus_tubes_mat"
+        }
+    },
+    "meshes": {
+        "_620": {
+            "name": "prop_battleBus",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_276",
+                    "material": "_35191d363a1896845b4e9c4624aecf1c-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_279",
+                    "material": "_0e14a9120306d4343ba94763988820c2-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_282",
+                    "material": "_563f41a1e466af24abfe19164eb81ae1-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_285",
+                    "material": "_64e02758727a37946a5e274dbc4371a8-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_288",
+                    "material": "_ad8424ed7b1c36440ae9e888536d2b12-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_291",
+                    "material": "_0428f7908ddf7b04ea8a7950e6640487-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_294",
+                    "material": "_bc404dc4b9d1e9c46b1bea42cd65522a-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_297",
+                    "material": "_098ec8978ce51144a84dc75bebca516e-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_300",
+                    "material": "_c8b0f18010a35cd41acb2f9efac97d52-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_303",
+                    "material": "_83e6ca88195bf2f42a8a4f51dc3825c7-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_306",
+                    "material": "_f6cfd302cc1848843a8fb32661dfa67d-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_309",
+                    "material": "_858d7c5c4608ddf4a8788139525ebc31-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_312",
+                    "material": "_75215383422e7d04680bd7209a37dacb-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_315",
+                    "material": "_a0fd5ff42768bd246bc1dc68f22d9f85-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_318",
+                    "material": "_6b3445df2091acc49b9caeaf6f52ad02-fx",
+                    "primitive": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "attribute_325",
+                        "POSITION": "attribute_323",
+                        "TEXCOORD_0": "attribute_327"
+                    },
+                    "indices": "indices_321",
+                    "material": "_6d9451edf0464944dbd2208c6c673fb2-fx",
+                    "primitive": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "_": {
+            "children": [],
+            "matrix": [
+                -0.002304,
+                0,
+                -0.999997,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.999997,
+                0,
+                -0.002304,
+                0,
+                11.4172,
+                0,
+                17.3302,
+                1
+            ],
+            "meshes": [
+                "_620"
+            ],
+            "name": "prop_battleBus"
+        }
+    },
+    "profile": "WebGL 1.0.2",
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": "prop_battleBus0FS",
+            "vertexShader": "prop_battleBus0VS"
+        },
+        "program_1": {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": "prop_battleBus2FS",
+            "vertexShader": "prop_battleBus2VS"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "_"
+            ]
+        }
+    },
+    "shaders": {
+        "prop_battleBus0FS": {
+            "path": "prop_battleBus0FS.glsl"
+        },
+        "prop_battleBus0VS": {
+            "path": "prop_battleBus0VS.glsl"
+        },
+        "prop_battleBus2FS": {
+            "path": "prop_battleBus2FS.glsl"
+        },
+        "prop_battleBus2VS": {
+            "path": "prop_battleBus2VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique1": {
+            "parameters": {
+                "diffuse": {
+                    "type": 35678
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35666
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                }
+            },
+            "pass": "defaultPass",
+            "passes": {
+                "defaultPass": {
+                    "details": {
+                        "commonProfile": {
+                            "extras": {
+                                "doubleSided": false
+                            },
+                            "lightingModel": "Phong",
+                            "parameters": [
+                                "diffuse",
+                                "modelViewMatrix",
+                                "normalMatrix",
+                                "projectionMatrix",
+                                "shininess",
+                                "specular"
+                            ],
+                            "texcoordBindings": {
+                                "diffuse": "TEXCOORD_0"
+                            }
+                        },
+                        "type": "COLLADA-1.4.1/commonProfile"
+                    },
+                    "instanceProgram": {
+                        "attributes": {
+                            "a_normal": "normal",
+                            "a_position": "position",
+                            "a_texcoord0": "texcoord0"
+                        },
+                        "program": "program_0",
+                        "uniforms": {
+                            "u_diffuse": "diffuse",
+                            "u_modelViewMatrix": "modelViewMatrix",
+                            "u_normalMatrix": "normalMatrix",
+                            "u_projectionMatrix": "projectionMatrix",
+                            "u_shininess": "shininess",
+                            "u_specular": "specular"
+                        }
+                    },
+                    "states": {
+                        "blendEnable": 1,
+                        "blendEquation": 32774,
+                        "blendFunc": {
+                            "dfactor": 771,
+                            "sfactor": 1
+                        },
+                        "cullFaceEnable": 1,
+                        "depthMask": 1,
+                        "depthTestEnable": 1
+                    }
+                }
+            }
+        },
+        "technique2": {
+            "parameters": {
+                "diffuse": {
+                    "type": 35678
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35666
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                }
+            },
+            "pass": "defaultPass",
+            "passes": {
+                "defaultPass": {
+                    "details": {
+                        "commonProfile": {
+                            "extras": {
+                                "doubleSided": false
+                            },
+                            "lightingModel": "Phong",
+                            "parameters": [
+                                "diffuse",
+                                "modelViewMatrix",
+                                "normalMatrix",
+                                "projectionMatrix",
+                                "shininess",
+                                "specular"
+                            ],
+                            "texcoordBindings": {
+                                "diffuse": "TEXCOORD_0"
+                            }
+                        },
+                        "type": "COLLADA-1.4.1/commonProfile"
+                    },
+                    "instanceProgram": {
+                        "attributes": {
+                            "a_normal": "normal",
+                            "a_position": "position",
+                            "a_texcoord0": "texcoord0"
+                        },
+                        "program": "program_1",
+                        "uniforms": {
+                            "u_diffuse": "diffuse",
+                            "u_modelViewMatrix": "modelViewMatrix",
+                            "u_normalMatrix": "normalMatrix",
+                            "u_projectionMatrix": "projectionMatrix",
+                            "u_shininess": "shininess",
+                            "u_specular": "specular"
+                        }
+                    },
+                    "states": {
+                        "blendEnable": 0,
+                        "cullFaceEnable": 1,
+                        "depthMask": 1,
+                        "depthTestEnable": 1
+                    }
+                }
+            }
+        }
+    },
+    "textures": {
+        "texture_image_0": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_0",
+            "target": 3553
+        },
+        "texture_image_10": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_10",
+            "target": 3553
+        },
+        "texture_image_12": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_12",
+            "target": 3553
+        },
+        "texture_image_14": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_14",
+            "target": 3553
+        },
+        "texture_image_16": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_16",
+            "target": 3553
+        },
+        "texture_image_18": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_18",
+            "target": 3553
+        },
+        "texture_image_2": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_2",
+            "target": 3553
+        },
+        "texture_image_20": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_20",
+            "target": 3553
+        },
+        "texture_image_21": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_21",
+            "target": 3553
+        },
+        "texture_image_23": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_23",
+            "target": 3553
+        },
+        "texture_image_25": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_25",
+            "target": 3553
+        },
+        "texture_image_26": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_26",
+            "target": 3553
+        },
+        "texture_image_28": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_28",
+            "target": 3553
+        },
+        "texture_image_4": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_4",
+            "target": 3553
+        },
+        "texture_image_6": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_6",
+            "target": 3553
+        },
+        "texture_image_8": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_8",
+            "target": 3553
+        },
+        "texture_image_1": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_1",
+            "target": 3553
+        },
+        "texture_image_11": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_11",
+            "target": 3553
+        },
+        "texture_image_13": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_13",
+            "target": 3553
+        },
+        "texture_image_15": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_15",
+            "target": 3553
+        },
+        "texture_image_17": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_17",
+            "target": 3553
+        },
+        "texture_image_19": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_19",
+            "target": 3553
+        },
+        "texture_image_22": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_22",
+            "target": 3553
+        },
+        "texture_image_24": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_24",
+            "target": 3553
+        },
+        "texture_image_27": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_27",
+            "target": 3553
+        },
+        "texture_image_29": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_29",
+            "target": 3553
+        },
+        "texture_image_3": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_3",
+            "target": 3553
+        },
+        "texture_image_5": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_5",
+            "target": 3553
+        },
+        "texture_image_7": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_7",
+            "target": 3553
+        },
+        "texture_image_9": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "image_9",
+            "target": 3553
+        }
+    }
+}
