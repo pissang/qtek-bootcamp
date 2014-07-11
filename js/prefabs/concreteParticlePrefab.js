@@ -84,8 +84,8 @@ define(function(require) {
             _shootParticle1 : null,
             _shootParticle2 : null,
 
-            _gravityField : new qtek.particleSystem.GravityField({
-                gravity : new qtek.math.Vector3(0, -2, 0)
+            _gravityField : new qtek.particleSystem.ForceField({
+                force : new qtek.math.Vector3(0, -2, 0)
             }),
 
             rootNode : rootNode,
@@ -101,7 +101,7 @@ define(function(require) {
 
             onframe : function(deltaTime) {
                 qtek.math.Matrix4.invert(tmpMat4, this.rootNode.worldTransform);
-                this._gravityField.gravity.copy(tmpMat4.up).normalize().scale(-2);
+                this._gravityField.force.copy(tmpMat4.up).normalize().scale(-2);
 
                 if (this._shootParticle1) {
                     this._shootParticle1.updateParticles(deltaTime);

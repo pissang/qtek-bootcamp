@@ -63,9 +63,9 @@
         anim1Loader.load("assets/animations/idle.json");
         anim2Loader.load("assets/animations/run/run.json");
 
-        var async = new qtek.core.Async();
-        async.all([soldierLoader, anim1Loader, anim2Loader])
-        async.success(function(res) {
+        var task = new qtek.async.TaskGroup();
+        task.all([soldierLoader, anim1Loader, anim2Loader])
+        task.success(function(res) {
             var res0 = res[0]
             var clip1 = res[1].clip
             var clip2 = res[2].clip

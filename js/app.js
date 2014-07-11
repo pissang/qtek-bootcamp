@@ -72,9 +72,11 @@ define(function (require) {
         app3D.resize(window.innerWidth, window.innerHeight);
     });
 
-    document.getElementById('powered-by').addEventListener('click', function() {
-        window.open('https://github.com/pissang/qtek')
-    });
+    if (document.getElementById('powered-by')) {
+        document.getElementById('powered-by').addEventListener('click', function() {
+            window.open('https://github.com/pissang/qtek')
+        });   
+    }
 
     return app3D;
 })

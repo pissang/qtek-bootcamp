@@ -5,7 +5,7 @@ Bootcamp demo of [QTEK](https://github.com/pissang/qtek)
 
 [link 1](http://pissang.github.io/qtek-bootcamp)
 
-[link 2](http://efe.baidu.com/webgl/bootcamp/)
+[link 2](https://developer.mozilla.org/zh-CN/demos/detail/bootcamp-webgl)
 
 ###Screenshots
 <img src="http://d.pcs.baidu.com/thumbnail/8fedaf22d13737b98087604327caef2e?fid=2215764494-250528-517082136103939&time=1393853408&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-LTINLiv9JsNG15qGN6XxuQwcf00%3D&expires=8h&prisign=RK9dhfZlTqV5TuwkO5ihMSi9urWA6/WDVOZJjW161c97pPFvBnDjJvo8Gcuo6pQpogOJnfqRidH27k9J0e2dzkmye5j3Whl2AAcnn80Hb97vFxQMiFwgORaeYyj8G4F48GIoCsFhKea/WLh/GJ5KldnT0FmIWjcIaLoOA1zPVLTxisYh+duuFB32F+3CHRP8VcUWDxuyGTBer3i6fMyABlH+b80j2kE0bNAVOlOb5H1bRnPSO6a3pA==&r=598409071&size=c850_u580&quality=100" width="700"></img>

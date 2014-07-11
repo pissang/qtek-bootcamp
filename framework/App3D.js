@@ -331,7 +331,7 @@ define(function(require) {
             this._$compositorSceneNode = sceneNode;
 
             FXLoader.success(function(compositor) {
-                compositor.add(sceneNode);
+                compositor.addNode(sceneNode);
                 self.compositor = compositor;
             });
 
