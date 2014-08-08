@@ -65,7 +65,7 @@ define(function(require) {
                 position : Emitter.vector(new qtek.math.Vector3(0, 0, 0)),
                 velocity : Emitter.random3D(new qtek.math.Vector3(-0.3, -0.1, -0.3), new qtek.math.Vector3(0.3, 0.3, 0.3))
             });
-            this._fireSmokeParticle = new qtek.particleSystem.ParticleSystem({
+            this._fireSmokeParticle = new qtek.particleSystem.ParticleRenderable({
                 material : fireSmokeMat,
                 loop : true,
                 spriteAnimationTileX : 4,
@@ -83,7 +83,7 @@ define(function(require) {
                 velocity : Emitter.vector(new qtek.math.Vector3(0, 0, 0))
             });
 
-            this._fireSparkParticle = new qtek.particleSystem.ParticleSystem({
+            this._fireSparkParticle = new qtek.particleSystem.ParticleRenderable({
                 material : fireSparkMat,
                 loop : true
             });

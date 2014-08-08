@@ -108,7 +108,7 @@ define(function(require) {
                 shadowBias : 0.004,
                 shadowSlopeScale : 4
             });
-            light.position.set(3, 16, 10);
+            light.position.set(3, 3, 10);
             light.lookAt(qtek.math.Vector3.ZERO);
 
             var cos = light.position.clone().normalize().dot(qtek.math.Vector3.UP);
@@ -167,11 +167,11 @@ define(function(require) {
             }
             switch(e.keyCode) {
                 case 27: //esc
-                    if (!this._isInMenu) {
-                        this._showMenu();
-                    } else {
-                        this._hideMenu();
-                    }
+                    // if (!this._isInMenu) {
+                    //     this._showMenu();
+                    // } else {
+                    //     this._hideMenu();
+                    // }
                     break;
             }
         }

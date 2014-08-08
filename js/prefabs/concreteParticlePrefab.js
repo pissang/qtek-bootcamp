@@ -32,7 +32,7 @@ define(function(require) {
         velocity : Emitter.random3D(new qtek.math.Vector3(-0.5, 1.0, -0.5), new qtek.math.Vector3(0.5, 3, 0.5))
     });
 
-    var shootParticle1 = new qtek.particleSystem.ParticleSystem({
+    var shootParticle1 = new qtek.particleSystem.ParticleRenderable({
         name : 'shootParticle1',
         material : particleMaterial1,
         loop : false,
@@ -64,7 +64,7 @@ define(function(require) {
         velocity : Emitter.random3D(new qtek.math.Vector3(-0.5, 0.5, -0.5), new qtek.math.Vector3(0.5, 2, 0.5))
     });
 
-    var shootParticle2 = new qtek.particleSystem.ParticleSystem({
+    var shootParticle2 = new qtek.particleSystem.ParticleRenderable({
         name : 'shootParticle2',
         material : particleMaterial2,
         oneshot : true,

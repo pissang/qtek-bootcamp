@@ -30,7 +30,7 @@ define(function (require) {
                 vertex : qtek.Shader.source('buildin.physical.vertex'),
                 fragment : qtek.Shader.source('buildin.physical.fragment')
             });
-            alphaShader.define('fragment', 'SRGB_DECODE');
+            // alphaShader.define('fragment', 'SRGB_DECODE');
             alphaShader.enableTexture('diffuseMap');
             alphaShader.define('fragment', 'DIFFUSEMAP_ALPHA_ALPHA');
 
