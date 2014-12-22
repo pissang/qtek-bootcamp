@@ -277,7 +277,8 @@ define(function(require) {
 
             if (
                 document.webkitFullscreenElement === el ||
-                document.mozFullscreenElement === el
+                document.mozFullscreenElement === el ||
+                document.fullscreenElement === el
             ) {
                 el.requestPointerLock = el.requestPointerLock ||
                                         el.mozRequestPointerLock ||
@@ -290,6 +291,7 @@ define(function(require) {
         _$lockChange : function(e) {
             var el = this.renderer.canvas;
             if (
+                document.pointerLockElement === el ||
                 document.mozPointerLockElement === el ||
                 document.webkitPointerLockElement === el
             ) {

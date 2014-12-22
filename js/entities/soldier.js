@@ -187,7 +187,6 @@ define(function (require) {
             this._aimClip = aimClip;
             this._standingFireClip = standingFire;
 
-
             this._createBlendOutput(finalClip);
             this._createBlendOutput(aimClip);
             this._createBlendOutput(runClip);
@@ -455,7 +454,7 @@ define(function (require) {
         onkeydown : function(e) {
             switch(e.keyCode) {
                 case 87: //w
-                case 37: //up arrow
+                case 38: //up arrow
                     this._speed.y = this.maxForwardSpeed;
                     break;
                 case 83: //s
